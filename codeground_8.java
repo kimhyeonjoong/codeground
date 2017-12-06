@@ -1,4 +1,3 @@
-package com;
 
 import java.util.Scanner;
 import java.io.FileInputStream;
@@ -17,7 +16,7 @@ import java.io.FileInputStream;
  * 문제점 : 더하는 것에 부분적인 반복이 일어난다. 
  */
 
-class codeground8 {
+class codeground_8 {
     public static void main(String args[]) throws Exception	{
 		Scanner sc = new Scanner(System.in);
 

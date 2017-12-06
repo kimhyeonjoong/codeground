@@ -1,4 +1,3 @@
-
 /*
 초등학교 학생인 정우와 석환이는 최근 학교에서 두 이진수의 XOR 연산에 대해 배웠다. 둘은 매우 영특한 학생이라 새로 배운 연산을 갖고 이리저리 장난치기 시작했다.
 다만 석환이는 정우에게 일을 시키는 것을 좋아하는지라 다음과 같은 제안을 했다.
@@ -26,7 +25,7 @@
 import java.util.Scanner;
 import java.io.FileInputStream;
 
-class Solution {
+class codeground_1 {
 	public static void main(String args[]) throws Exception	{
 		/* 아래 메소드 호출은 앞으로 표준입력(키보드) 대신 input.txt 파일로 부터 읽어오겠다는 의미의 코드입니다.
 		   만약 본인의 PC 에서 테스트 할 때는, 입력값을 input.txt에 저장한 후 이 코드를 첫 부분에 사용하면,

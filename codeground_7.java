@@ -15,7 +15,7 @@ import java.util.Scanner;
  * 			 2. 사람들의 주문배열의 값을 커피 종류의 인자값으로 전달한다.
  * 			 3. 그 값들을 더하여 연산해서 결과를 낸다.
  */
-class codeground7 {
+class codeground_7 {
 	static char Answer;
 
 	public static void main(String args[]) throws Exception	{

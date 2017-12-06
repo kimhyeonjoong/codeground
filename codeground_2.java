@@ -28,7 +28,7 @@ import java.util.Arrays;
     4. 그렇다면 최종직전 점수에 가장 큰 점수를 더한 값이 가장 낮은 점수에 사람이 우승할 점수 보다 높으면 우승 가능자이다.
 
 */
-class Solution {
+class codeground_2 {
 	public static void main(String args[]) throws Exception	{
 		/* 아래 메소드 호출은 앞으로 표준입력(키보드) 대신 input.txt 파일로 부터 읽어오겠다는 의미의 코드입니다.
 		   만약 본인의 PC 에서 테스트 할 때는, 입력값을 input.txt에 저장한 후 이 코드를 첫 부분에 사용하면,

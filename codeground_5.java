@@ -14,7 +14,7 @@ import java.util.Scanner;
  * 			 2. 도착했는지 검사한다.
  * 			 3. 도착하지 않았다면 집으로 돌아간다.
  */
-class codeground5 {
+class codeground_5 {
 	static int Answer;
 
 	public static void main(String args[]) throws Exception	{

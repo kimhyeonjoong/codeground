@@ -14,7 +14,7 @@ import java.util.Scanner;
  * 			 2. l은 2번사용되기때문에 2로 나눈다.
  * 			 3. h, e, l, o 중 가장 적은 숫자의 알파벳을 찾는다. 
  */
-class codeground6 {
+class codeground_6 {
 	static int Answer;
 
 	public static void main(String args[]) throws Exception	{

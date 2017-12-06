@@ -1,4 +1,3 @@
-package com;
 
 import java.util.Scanner;
 
@@ -15,7 +14,7 @@ import java.util.Scanner;
  *  해결방법 : 1. 인접한 a와b를 불리언값으로 번갈아가며 준다.
  *  			2. 불리언값으로 인접한 곳에 대한 검사를 한다.
  */
-class codeground9 {
+class codeground_9 {
 	public static void main(String args[]) throws Exception	{
         
 		Scanner sc = new Scanner(System.in);

@@ -1,4 +1,3 @@
-package com.hotjoong.javatutorials.eclipse;
 
 /* 아래 기본 제공된 코드를 수정 또는 삭제하고 본인이 코드를 사용하셔도 됩니다.
 단, 사용하는 클래스명이 Solution 이어야 하며, 가급적 Solution.java 를 사용할 것을 권장합니다.
@@ -15,7 +14,7 @@ import java.lang.Math;
  * 			3. math함수를 이용하여 입력표값이 몇도 범위인지 구한다.
  * 			4. 해당 각도의 범위의 점수와 배수를 계산하여 합계를 더한다.
  */
-class codeground4 {
+class codeground_4 {
 	public static void main(String args[]) throws Exception	{
 		/* 아래 메소드 호출은 앞으로 표준입력(키보드) 대신 input.txt 파일로 부터 읽어오겠다는 의미의 코드입니다.
 		   만약 본인의 PC 에서 테스트 할 때는, 입력값을 input.txt에 저장한 후 이 코드를 첫 부분에 사용하면,
