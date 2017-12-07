@@ -49,10 +49,11 @@ class codeground_11 {
 			int cnt=0;
 			int deal=0;
 			int stock=-1;
+			int beforedeal=1000000000;
 			while(cnt<N-1) {
 				if(stock==-1) { // 주식이 없을 때,
 					for(int i=cnt; i<N-1 ; i++) {
-						if(dayPrice[i] < dayPrice[i+1]) {
+						if(dayPrice[i] < dayPrice[i+1] && dayPrice[i] < beforedeal) {
 							stock = i; // i번째 주식을 삼.
 							break;
 						}
@@ -64,6 +65,7 @@ class codeground_11 {
 							deal+=2;
 							cnt = j+2;
 							stock = -1;
+							beforedeal = dayPrice[j+1];
 							break;
 						}
 					}
