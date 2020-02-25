@@ -1142,6 +1142,7 @@
                             <tr style="text-align: center;">
                                 <th scope="col">#</th>
                                 <th colspan="6" scope="col">1등 번호</th>
+                                <th scope="col"></th>
                                 <th scope="col">보너스</th>
                             </tr>
                         </thead>
@@ -1771,15 +1772,16 @@
                  var row = result.rows.item(i);
                  
                  $('#lottoedTable').append(
-                    $('<tr style="text-align: center;" class="content">').append(
+                    $('<tr style="line-height:50px; text-align: center;" class="content">').append(
                     $('<td>').append(row.seq),
-                    $('<td bgcolor="lightgreen">').append(row.number.split(",")[0]),
-                    $('<td bgcolor="lightgreen">').append(row.number.split(",")[1]),
-                    $('<td bgcolor="lightgreen">').append(row.number.split(",")[2]),
-                    $('<td bgcolor="lightgreen">').append(row.number.split(",")[3]),
-                    $('<td bgcolor="lightgreen">').append(row.number.split(",")[4]),
-                    $('<td bgcolor="lightgreen">').append(row.number.split(",")[5]),
-                    $('<td bgcolor="lightgreen">').append(row.number.split(",")[6])
+                    $('<td>').append(circleCss(row.number.split(",")[0])),
+                    $('<td>').append(circleCss(row.number.split(",")[1])),
+                    $('<td>').append(circleCss(row.number.split(",")[2])),
+                    $('<td>').append(circleCss(row.number.split(",")[3])),
+                    $('<td>').append(circleCss(row.number.split(",")[4])),
+                    $('<td>').append(circleCss(row.number.split(",")[5])),
+                    $('<td>').append('|'),
+                    $('<td>').append(circleCss(row.number.split(",")[6]))
                 )
             );
             }
